@@ -50,6 +50,6 @@ body {
   grid-area: clear;
 }
 
-.keys :nth-child(4n + 6):hover {
+.keys :hover {
   background: #f3fe39;
 }
