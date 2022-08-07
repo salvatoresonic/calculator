@@ -4,7 +4,6 @@ body {
 }
 .header {
   text-align: center;
-
   font-family: "Gloria Hallelujah", cursive;
   font-size: 60px;
   font-weight: 200;
@@ -52,4 +51,22 @@ body {
 
 .keys :hover {
   background: #f3fe39;
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    width: 300px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 500px;
+    height: 550px;
+  }
+
+  .header {
+    margin-top: 2em;
+  }
 }
